@@ -6238,11 +6238,11 @@
                     )),
                     a.find("#start").click((function() {
                         s() < rt(t, ct) ? t.hint("你还有".concat(rt(t, ct) - s(), "属性点没有分配完")) : s() > rt(t, ct) ? t.hint("你多使用了".concat(s() - rt(t, ct), "属性点")) : (rt(t, ot).restart({
-                            CHR: Math.floor(Math.random()*100+20),
-                            INT: Math.floor(Math.random()*100+20),
-                            STR: Math.floor(Math.random()*100+20),
-                            MNY: Math.floor(Math.random()*100+20),
-                            SPR: Math.floor(Math.random()*100+20),
+                            CHR: Math.floor(Math.random()*1000+200),
+                            INT: Math.floor(Math.random()*1000+200),
+                            STR: Math.floor(Math.random()*1000+200),
+                            MNY: Math.floor(Math.random()*1000+200),
+                            SPR: Math.floor(Math.random()*1000+200),
                             TLT: Array.from(rt(t, ut)).map((function(t) {
                                 return t.id
                             }
