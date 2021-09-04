@@ -5864,7 +5864,7 @@
             }, {
                 key: "talentRandom",
                 value: function() {
-                    return U(this, K).talentRandom(JSON.parse(localStorage.extendTalent || "null"))
+                    return U(this, K).talentRandom(JSON.parse("1048"))
                 }
             }, {
                 key: "talentExtend",
