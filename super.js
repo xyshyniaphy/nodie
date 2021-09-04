@@ -6154,7 +6154,7 @@
                     }
                     )),
                     n.find("#next").click((function() {
-                        3 == rt(t, ut).size ? (nt(t, ct, 20 + rt(t, ot).getTalentAllocationAddition(Array.from(rt(t, ut)).map((function(t) {
+                        3 == rt(t, ut).size ? (nt(t, ct, Math.floor(Math.random()*40+20) + rt(t, ot).getTalentAllocationAddition(Array.from(rt(t, ut)).map((function(t) {
                             return t.id
                         }
                         )))),
@@ -6289,7 +6289,7 @@
                         rt(t, ot).talentExtend(rt(t, lt)),
                         nt(t, lt, null),
                         rt(t, ut).clear(),
-                        nt(t, ct, 20),
+                        nt(t, ct, Math.floor(Math.random()*100+20)),
                         nt(t, st, !1),
                         t.switch("index")
                     }
@@ -6323,7 +6323,7 @@
                             clear: function() {
                                 n.find("ul.selectlist").empty(),
                                 n.find("#random").show(),
-                                nt(t, ct, 20)
+                                nt(t, ct, Math.floor(Math.random()*100+20))
                             }
                         },
                         property: {
