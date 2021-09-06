@@ -5834,8 +5834,8 @@
                 key: "random",
                 value: function(t) {
                     var e, r = this, n = 0, i = _(t = t.filter((function(t) {
-                        var e = C(t, 1)[0];
-                        console.log('random event',e)
+                        var e = C(t, 1)[0]; 
+                        if(e==10000){console.log('no die event',e);return false;}
                         return U(r, J).check(e, U(r, B))
                     }
                     )));
