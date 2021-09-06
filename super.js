@@ -5131,7 +5131,7 @@
             }, {
                 key: "check",
                 value: function(t, e) {
-                    console.log('event ',this.get(t).event,t)
+                    //console.log('event ',this.get(t).event,t)
                     if(this.get(t).event.indexOf("死")>=0){
                         console.log('免死')
                         return false;
@@ -5835,6 +5835,7 @@
                 value: function(t) {
                     var e, r = this, n = 0, i = _(t = t.filter((function(t) {
                         var e = C(t, 1)[0];
+                        console.log('random event',e)
                         return U(r, J).check(e, U(r, B))
                     }
                     )));
