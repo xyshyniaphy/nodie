@@ -5833,12 +5833,14 @@
             }, {
                 key: "random",
                 value: function(t) {
-                    console.log("random t input",t)
                     var e, r = this, n = 0, i = _(t = t.filter((function(t) {
                         var e = C(t, 1)[0]; 
                         return U(r, J).check(e, U(r, B))
                     }
                     )));
+
+                    console.log("filter ",t,i)
+
                     try {
                         for (i.s(); !(e = i.n()).done; )
                             n += C(e.value, 2)[1]
